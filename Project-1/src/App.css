@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --red: #d01c28;
+  --gray: #5a5959;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.button1 {
+  all: unset;
+  background-color: var(--red);
+  padding: 6px 16px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 600;
+
+}
+.button2{
+    all: unset;
+    color: var(--gray);
+    border: 2px solid var(--gray);
+    padding: 6px 16px;
+    font-weight: 600;
+    background-color: transparent;
+   
+
+}
+
+
+
+/* ------Navigation Section------ */
+nav {
+  display: flex;
+  max-width: 1280px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 72px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+nav ul li {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+/* ------Hero Section------ */
+
+section{
+    display: flex;
+    max-width: 1280px;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh
+}
+.leftdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.leftdiv h1{
+    font-size: 108px;
+    font-weight: 800;
+    line-height: 102px;
+}
+.leftdiv p{
+    max-width: 404px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray);
+}
+.buttons{
+    display: flex;
+    gap: 40px;
+}
+.available p{
+    color: var(--gray);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.comp-logos{
+    display: flex;
+    gap: 16px;
+    height: 32px;
+
+}
